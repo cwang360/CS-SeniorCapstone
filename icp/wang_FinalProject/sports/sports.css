@@ -1,0 +1,94 @@
+/*
+	Cynthia Wang
+	Final Project Sports Page CSS
+	ICP7
+	This is the CSS for sports.html
+	Date Created: 4/12/17
+	Original Author: Cynthia Wang
+	Last Updated: 5/4/17
+	Author of Last Updated: Cynthia Wang
+*/
+
+body{
+	font-family:		Verdana;
+	background-color:	rgb(88,121,190);
+	color:      		rgb(221,228,243);
+}
+
+h1{
+	text-align: 		center;
+	color:				rgb(19, 34, 91);
+	line-height:		3.5em;
+	background-color:	rgb(221,228,243);
+	margin:       		-10px;
+	margin-bottom:  	0px;
+}
+
+
+h2, h3{
+	text-align: 		center;
+}
+
+h3{
+	font-weight:		normal;
+}
+
+
+#players, #statistics, #commentary{
+	padding:			20px;
+	margin:				20px;
+	margin-top:			0;
+}
+
+#players{
+  margin-top:   		30px;
+  padding-top:  		0;
+  border-left:			3px dotted rgb(104, 146, 226);
+	float:				right;
+	width:				252px;
+}
+
+#statistics, #commentary{
+	width:       	 	500px;
+	margin-right:		370px;
+}
+
+#tableContainer{
+	margin:				auto;
+	display:			table;
+	border-spacing:		10px;
+}
+
+.row{
+	display:			table-row;
+}
+
+.cell{
+	display:			table-cell;
+	width:				100%;
+	text-align:   		center;
+
+}
+
+#footer{
+	text-align:   		center;
+	clear:        		both;
+	margin:       		10px;
+	padding:      		10px;
+	font-size:    		.7em;
+}
+
+a:link, a:visited{
+	color:    			rgb(104, 146, 226);
+}
+
+a:hover{
+	color:    			rgb(86, 138, 170);
+}
+
+#allcontent{
+	width:				900px;
+	margin-left:		auto;
+	margin-right:		auto;
+	background-color: 	rgb(19, 34, 91);
+}

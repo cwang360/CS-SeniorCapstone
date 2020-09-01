@@ -1,0 +1,279 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Light.ttf);
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0;
+  
+  font-size: 0;
+
+}
+
+p, ul, ol{
+	 line-height: 1.7em;
+}
+
+td{
+	padding: 20px;
+}
+
+.frontpage{
+	display: block; 
+	background-image: url(images/frontpage2.png); 
+	background-size: 100%;  
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 0;
+    padding-top: 54%; /* (img-height / img-width * container-width) */
+	margin: 0px;
+
+	
+                
+}
+
+.bodyDiv{
+	margin: 30px;
+	box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.25);
+	padding: 30px;
+	margin: 0px;
+	background-color: #ffffff
+}
+//all nav bar style
+div{
+  //keep this here
+  
+}
+
+@media screen and (min-width: 900px) {
+  .topnav {
+    font-size: 1.8vw; //2% of viewport width
+  }
+  #logo{
+    height: 1.8vw;
+    width: auto;
+    padding: none;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .topnav {
+    font-size: 17px;
+  }
+  #logo{
+    height: 17px;
+    width: auto;
+    padding: none;
+  }
+
+}
+
+.topnav {
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.25);
+
+  position: fixed;
+  //padding: 20px 20px 20px 20px;
+  z-index: 200;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  //font-size: 17px;
+}
+
+
+
+#subnav a{
+  float: right;
+}
+.topnav a:hover {
+  color: #d1d1d1;
+  -webkit-transition: color 0.6s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.6s; /* For modern browsers */
+}
+
+.selected {
+  color: #e0e0e0;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*media queries*/
+
+@media screen and (max-width:700px) {
+  /*if screen is 700 pixels wide or smaller, icon is shown*/
+  /*.topnav a:not(.show){
+    display: none;
+  }*/
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+}
+/*displays links vertically when screen is small (when js adds responsive class to nav)*/
+@media screen and (max-width: 700px) {
+  //.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive{
+    position: fixed;
+    width: 100%;
+  }
+
+  .topnav #subnav a, .topnav.responsive a.show {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  //expandable part of nav bar transformations
+  .transform{
+    //keep this here
+  }
+
+  .transform {
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  #subnav.transform-active {
+    height: 245px;//after transition
+
+  }
+
+}
+// end nav bar style
+
+//types of containers, sections, divs, etc.
+
+
+
+
+//slideshow stuff
+
+img {vertical-align: middle;}
+
+
+.text {
+  color: #000000;
+  //font-size: 10px;
+  padding: 18px 12px;
+  position: absolute;
+  top: 25vw;
+  right: 3vw;
+  width: 30%;
+  //height: 20%;
+  text-align: left;
+  font-size:1.5vw;
+  line-height: 1.7em;
+
+}
+
+
+.textTopL {
+  color: #000000;
+  //font-size: 8px;
+  padding: 18px 12px;
+  position: absolute;
+  top: 8vw;
+  right: 3vw;
+  //width: 100%;
+  //height: 20%;
+  text-align: right;
+  font-size:5.1vw;
+	text-decoration: none;
+}
+
+ 
+
+
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.raised{
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+.content{
+	padding: 25px;
+	font-size: 1.8vw;
+	background-color: white;
+	margin: 0px;
+	box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.25);
+	z-index: 100;
+
+}
+
+footer{
+	padding: 20px;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color:#ffffff;
+	//box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.25);
+	//box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+	box-shadow: inset 0px 11px 8px -10px #CCC;
+	font-size: 1.3vw;
+	//position: absolute;
+
+}
+
+header {
+	padding: 100px 20px 50px 20px;
+	//background: #00174f;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-style: bold;
+	//box-shadow: inset 0px -11px 8px -10px #CCC;
+
+
+}
+
+
+

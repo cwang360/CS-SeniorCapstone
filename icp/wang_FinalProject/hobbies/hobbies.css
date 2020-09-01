@@ -1,0 +1,170 @@
+/*
+Cynthia Wang
+ICP7
+Final Project: Hobbies Page CSS
+May 13, 2017
+*/
+
+body{
+  font-family: 			"Century Gothic", CenturyGothic, Geneva, Verdana, sans-serif;
+  color: 				rgb(92, 0, 96);
+}
+
+
+header h1{
+  color: 				white;
+  font-size:		 	7.5em;
+  line-height: 			.6em;
+  text-align: 			center;
+  font-weight: 			200;
+}
+
+header h2{
+  color: 				white;
+  font-size: 			1.8em;
+  text-align: 			center;
+  font-weight: 			200;
+}
+
+blockquote{
+  font-style: 			italic;
+}
+
+img#headerbackground{
+  position: 			fixed;
+  top: 					0;
+  left: 				0;
+  z-index: 				-1;
+}
+
+
+header{
+  height: 				600px;
+  margin: 				-10px;
+  padding: 				10px;
+}
+
+#headerTable{
+  display: 				table;
+  width: 				70%;
+  margin: 				auto;
+  border-spacing: 		30px;
+}
+
+.headerTableRow{
+  display: 				table-row;
+  
+}
+
+.headerTableCell{
+  display: 				table-cell;
+  width: 				33%;
+  text-align: 			center;
+}
+
+.headerTableCell img{
+  vertical-align: 		middle;
+}
+
+header a:link, header a:visited{
+  color: 				white;
+  text-decoration:	 	none;
+  font-weight: 			500;
+}
+
+
+header a:hover{
+  color: 				rgb(234, 175, 229);
+  text-decoration: 		none;
+}
+
+#bodycontainer{
+  margin: 				-10px;
+}
+
+#bodycontent{
+  width: 				800px;
+  margin: 				-10px auto;
+  margin-top: 			-24px;
+  background-color: 	rgb(254, 242, 255);
+}
+
+#bodycontent h2{
+  background-color: 	rgb(234, 175, 229);
+  padding: 				10px;
+  color: 				rgb(92, 0, 96);
+}
+
+#bodycontent p, h4{
+  padding: 				5px 25px;
+  color: 				rgb(92, 0, 96);
+}
+
+#bodycontent ul{
+  border: 				thin dotted rgb(92, 0, 96);
+  margin-left:			25px;
+  margin-right: 		25px;
+  padding: 				20px 40px;
+}
+
+#imagesTable{
+  display: 				table;
+  margin: 				auto;
+  border-spacing: 		5px;
+}
+
+.imagesTableRow{
+  display: 				table-row;
+}
+
+.imagesTableCell{
+  display: 				table-cell;
+  text-align: 			center;
+  padding: 				5px;
+}
+
+footer{
+  text-align:	 		center;
+  font-size: 			.6em;
+  background-color: 	rgb(234, 175, 229);
+  padding: 				10px;
+  margin: 				-10px;
+}
+
+footer a:link, a:visited{
+  color: 				rgb(92, 0, 96);
+  text-decoration: 		underline;
+}
+
+
+footer a:hover{
+  color: 				rgb(173, 9, 181);
+  text-decoration: 		underline;
+}
+
+nav ul {
+	margin: 			-10px -10px;
+	list-style-type: 	none;
+	padding: 			15px 30px;
+	background-color: 	rgb(247, 217, 243);
+}
+
+nav ul li {
+	display: 			inline;
+	padding: 			15px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: 				rgb(92, 0, 96);
+	border-bottom: 		none;
+	text-decoration: 	none;
+}
+
+nav ul li.selected {
+	background-color: 	rgb(254, 242, 255);
+}
+
+.italic{
+	font-style: 		italic;
+	font-weight: 		bold;
+}

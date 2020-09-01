@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CWang Capstone</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <!-- Load an icon library to show a hamburger menu on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style="background-image: url(images/home.jpg); background-repeat: no-repeat; background-size: 120%; background-attachment: fixed;">
+    
+    <!--nav bar-->
+    <div class="topnav" id="navbar">
+        <a href="index.html" class="selected show">
+          <img src="images/logo.png" id="logo">
+          HOME
+        </a>
+        <a href="javascript:void(0);" class="icon collapsible" onclick="changeNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      <div id="subnav" class="transform">
+		<a href="feedback/feedback.html">Feedback</a>
+        <a href="cs4/cs4.html">CS IV</a>
+		<a href="csa/csa.html">AP CSA</a>
+		<a href="csp/csp.html">AP CSP</a>
+		<a href="icp/icp.html">ICP</a>
+		
+      </div>
+    </div>
+    
+      <div class = "frontpage rellax" data-rellax-speed="-7" data-rellax-zindex="-5">
+        <div class="textTopL">
+          COMPUTER SCIENCE <br/>AT MOT CHARTER
+        </div>
+        <div class="text">Computer Science is one of the 3 STEM majors offered at MOT Charter High School.
+		Use the nav bar to learn about each course in the Computer Science pathway. 
+		Click <a href="http://motcharter.com">here</a> to learn about MOT Charter High School.
+		</div></img>
+      </div>
+
+
+
+
+	<div class="rellax" data-rellax-speed="0" data-rellax-zindex="5">
+
+	  <div class = "content">
+		<h1>About</h1>
+		<p>
+			This is a website created from scratch by Cynthia Wang, a Computer Science Major at MOT Charter High
+			School, for her senior capstone project. Here, you will find everything about CS at MOT, from
+			freshman year to senior year. Navigate to each course in the CS major using the nav bar
+			to learn about projects, languages, etc. the students at MOT explore.
+			<br>
+			<br>
+			This site uses HTML, CSS, and JavaScript. Responsive navigation bar logistics based on 
+			<a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp" target="_blank">W3School's tutorial</a>.
+			Parallax scrolling effect uses <a href="https://github.com/dixonandmoe/rellax" target ="_blank">Rellax</a> (a vanilla javascript library).
+			Font on this site is <a href="https://www.fontsquirrel.com/fonts/roboto" target="_blank">Roboto Light</a> from Font Squirrel.
+			<br>
+		</p>
+		<div style="display: inline-block;">
+			<h1>Computer Science Pathway</h1>
+			<p>
+				<ul>
+					<li>Introduction to Computer Programming</li>
+					<li>AP Computer Science Principles</li>
+					<li>AP Computer Science A</li>
+					<li>Computer Science IV</li>
+				</ul>
+				
+			</p>
+		</div>
+		<img src="images/artifact.png" style="float: right; width:30%; margin: 30px 8%;">
+	  </div>
+	  <footer>
+		Cynthia Wang</br>
+		Computer Science</br>
+		MOT Charter High School </br>
+		2020</br>
+	  </footer>
+	  </div>
+	
+
+
+		
+		<script src="rellax.js"></script>
+		<script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+#scratch-games{
+	
+}
+/*table{
+	margin: 20px;
+	
+}
+*/
+
+
+.tableImage{
+  width: 17%;
+  margin: 1%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.tableImage:hover{
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25);
+
+}
+
+body{
+	font-size: 1em;
+}

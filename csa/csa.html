@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AP Computer Science A</title>
+    <link href="../index.css" rel="stylesheet" type="text/css" />
+	<link href="csa.css" rel="stylesheet" type="text/css" />
+    <!-- Load an icon library to show a hamburger menu on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <script src="../index.js"></script>
+    <!--nav bar-->
+    <div class="topnav" id="navbar">
+        <a href="../index.html">
+          <img src="../images/logo.png" id="logo">
+          HOME
+        </a>
+        <a href="javascript:void(0);" class="icon collapsible" onclick="changeNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      <div id="subnav" class="transform">
+		<a href="../feedback/feedback.html">Feedback</a>
+        <a href="../cs4/cs4.html">CS IV</a>
+		<a href="csa.html" class="selected show">AP CSA</a>
+		<a href="../csp/csp.html">AP CSP</a>
+		<a href="../icp/icp.html">ICP</a>
+		
+      </div>
+    </div>
+	<!--end nav bar-->
+    <header class="rellax" data-rellax-speed="-4" data-rellax-zindex="-5">
+      AP Computer Science A
+    </header>
+	<div class="rellax" data-rellax-speed="0" data-rellax-zindex="5">
+	<div class="bodyDiv">
+		<h2>AP CSA Course Summary</h2>
+			 <p>Students learn object-oriented programming using Java. The emphasis is on problem-solving and algorithm development with hands-on activities.  This course will prepare students for the end-of-course AP Exam. Students also complete CSC 240 JavaScript, a Wilmington University Dual Enrollment course.  </p>
+		<h2>AP CSA Standards</h2>
+			<ol>
+				<li>Design and implement computer-based solutions to problems.</li>
+				<li>Use and implement commonly used algorithms and data structures.</li>
+				<li>Develop and select appropriate algorithms and data structures to solve new problems.</li>
+				<li>Write solutions fluently an object-oriented paradigm</li>
+				<li>Write, run, test and debug solutions in the Java programming language</li>
+				<li>Read and understand programs consisting of several classes and interacting objects</li>
+				<li>Read and understand a description of the design and development process</li>
+				<li>Understand the ethical and social implications of computer use</li>
+			</ol>
+	
+		<p>Below, you will see some of the projects I created during AP CSA.
+		Click the play button to run the program!</p>
+		
+		<table class="raised">
+		<tr>
+			<td>
+			<h1>Checkers</h1>
+			<p>This program simulates a checkers board and tests it with sample input</p>
+			<iframe height="600px" width="100%" src="https://repl.it/@CynthiaWang/Assignment-7-Checkers?lite=true" 
+			scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms 
+			allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+			</td>
+		</tr>
+		<tr>
+		
+			<td>
+			<h3>Describe:</h3>
+				<p>This program simulates a checkers board and tests it with sample input. It uses a customized class named
+				"Gameboard" to set up a checkers board and functions that are associated with the checkers board, such
+				as checking if a move is possible. In main.java, objects of the Gameboard class are made and tested.</p>
+			<h3>Analyze:</h3>
+				<p>When I first started the assignment, I read through the requirements to understand what I needed to do.
+				Then, I created the Gameboard class using the requirements and algorithms needed. I used the Gameboard class in the main
+				java file to test it by Gameboard objects and running the algorithms on different scenarios. When I had problems with the code,
+				I added flags and looked at the console to see where to debug.</p>
+			<h3>Reflect:</h3>
+				<p>I learned a lot about using and making classes in Java, which helped me understand the object-oriented
+				programming. I also learned about the importance of the 
+				console and using it to display test results and debug the program. </p>
+			</td>
+		</tr>
+		</table>
+		
+		
+		<!--
+		<h1>Program to Evaluate Prefix Expressions</h1>
+		<p> When prompted, type in 5 prefix expressions (separate by new line), and press enter</p>
+		<iframe height="400px" width="100%" src="https://repl.it/@CynthiaWang/ACSL-4?lite=true" scrolling="no" 
+		frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock 
+		allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+		-->
+	</div>
+	  <footer>
+		Cynthia Wang</br>
+		Computer Science</br>
+		MOT Charter High School </br>
+		2020</br>
+	  </footer>
+	  </div>
+	<script src="../rellax.js"></script>
+	<script src="../index.js"></script>
+  </body>
+</html>

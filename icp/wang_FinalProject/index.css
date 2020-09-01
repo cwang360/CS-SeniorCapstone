@@ -1,0 +1,105 @@
+/*
+	Cynthia Wang
+	Final Project Home Page CSS
+	ICP7
+	This is the CSS for index.html
+	Date Created: 3/23/17
+	Original Author: Cynthia Wang
+	Last Updated: 5/5/17
+	Author of Last Updated: Cynthia Wang
+*/
+
+body {
+	background-color: 	rgb(69, 0, 50);
+	font-family: 		Verdana;
+	color: 				rgb(229, 157, 209);
+}
+
+h1{
+	font-size:  		3em;
+}
+
+h2{
+	background-color:	rgb(114, 10, 85);
+	padding:  			10px;
+}
+
+header{
+	margin: 			-10px -10px 0px -10px;
+	text-align: 		center;
+	background-color: 	rgb(114, 10, 85);
+	padding: 			10px;
+}
+
+#maincontent{
+	width: 				800px;
+	margin-right: 		auto;
+	margin-left: 		auto;
+}
+
+aside{
+	padding: 			10px;
+	margin: 			10px;
+	text-align: 		center;
+	background-color: 	rgb(175, 63, 144);
+	
+}
+
+a:link{
+	color: 				rgb(239, 108, 203);
+}
+
+a:visited{
+	color: 				rgb(114, 10, 85);
+}
+
+footer{
+	text-align: 		center;
+	font-size:  		10px;
+}
+
+nav ul {
+	margin: 			10px;
+	list-style-type: 	none;
+	padding: 			5px 0px 5px 0px;
+	background-color: 	rgb(175, 63, 144);
+}
+
+nav ul li {
+	display: 			inline;
+	padding: 			5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: 				rgb(114, 10, 85);
+	border-bottom: 		none;
+	font-weight: 		bold;
+	text-decoration: 	none;
+}
+
+nav ul li.selected {
+	background-color: 	rgb(232, 157, 211);
+}
+
+#table{
+	display:  			table;
+	background-color: 	rgb(175, 63, 144);
+	color:  			rgb(96, 25, 76);
+	padding: 			20px;
+	margin: 			10px;
+}
+
+.row{
+	display:			table-row;
+}
+
+.cell{
+	border: 			20px solid rgb(175, 63, 144);
+	display: 			table-cell;
+	margin: 			10px;
+	width: 				350px;
+	padding: 			10px;
+	text-align: 		center;
+	background-color: 	rgb(229, 157, 209);
+}
+
